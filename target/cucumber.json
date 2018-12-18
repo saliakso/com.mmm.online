@@ -1,0 +1,101 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 307147951,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Valid Email and Password",
+        "description": "",
+        "id": "login-to-user-account;valid-email-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 1522310329,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31937497098,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User go to website",
+            "match": {
+              "location": "RegisterStepDefinition.user_go_to_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 945791423,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on the login button",
+            "match": {
+              "location": "LoginStepDefinition.user_click_on_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1403652419,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter valide email and Password",
+            "match": {
+              "location": "LoginStepDefinition.user_enter_valide_email_and_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 418109624,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click login botton",
+            "match": {
+              "location": "LoginStepDefinition.user_click_login_botton()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Login to user Account",
+    "description": "",
+    "id": "login-to-user-account",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/login.feature",
+    "tags": []
+  }
+]

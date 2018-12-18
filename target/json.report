@@ -1,0 +1,134 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 377860225,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Create New Account",
+        "description": "",
+        "id": "user-register;create-new-account",
+        "after": [
+          {
+            "result": {
+              "duration": 1659121965,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 32686852661,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User go to website",
+            "match": {
+              "location": "RegisterStepDefinition.user_go_to_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 837475,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on register botton",
+            "match": {
+              "location": "RegisterStepDefinition.user_click_on_register_botton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2614644033,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter email and User firstname and User lastname and password and Company name",
+            "match": {
+              "location": "RegisterStepDefinition.user_enter_email_and_User_firstname_and_User_lastname_and_password_and_Company_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 536920,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "select country",
+            "match": {
+              "location": "RegisterStepDefinition.select_country()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 459139,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "select email newsletters",
+            "match": {
+              "location": "RegisterStepDefinition.select_email_newsletters()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 405144,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click the register buttom",
+            "match": {
+              "location": "RegisterStepDefinition.click_the_register_buttom()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16764940604,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user verify on the dasboard page",
+            "match": {
+              "location": "RegisterStepDefinition.the_user_verify_on_the_dasboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@register"
+          }
+        ]
+      }
+    ],
+    "name": "User Register",
+    "description": "",
+    "id": "user-register",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/register.feature",
+    "tags": []
+  }
+]
